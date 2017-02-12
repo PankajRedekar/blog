@@ -10,7 +10,7 @@
                 <!-- Masonry Sizer -->
                 <div class="masonry-sizer col-lg-4 col-sm-6 col-xs-12"></div>    
                 <!-- Masonry Element / Post -->
-                {% for post in (1..3) %}
+                {% for post in paginator.posts %}
                 <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
                     <div class="post-photo">
                         <img src="https://blog.pankajr.com/assets/img/photos/{{post.title}}.jpg" alt="...">
